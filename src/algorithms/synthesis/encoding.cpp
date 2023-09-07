@@ -244,6 +244,8 @@ namespace syrec {
                     if (currentConstantVecSize != nBits) {
                         // add a constant at the MSB.
                         tt.getConstants().emplace_back(true);
+
+
                     }
                 }
             }
